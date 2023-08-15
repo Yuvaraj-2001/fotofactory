@@ -54,7 +54,7 @@ function sendData(){
     document.getElementById('spin-off').style.display = 'none';
     document.getElementById('spin-on').style.display = 'inline-block';
            
-    fetch('https://script.google.com/macros/s/AKfycby05oW4afRB_VO83EeWsBI330mZQGmZH04kNY6fA11xGeGXqIxjy1bpqlZnj7bi3bw4/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwNc1WPDP6dgOatrkKho4naY1DRTVjFOyyDIvZ3jmFeGDNfaHQK1LS9k5ucgGKzMW4U/exec', {
         method: "POST",
         body: data
     })
