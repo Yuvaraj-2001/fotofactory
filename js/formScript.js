@@ -46,7 +46,8 @@ function sendData(){
             name: idval('user_name'), 
             phone:idval('user_phone'), 
             email: idval('user_email'), 
-            message: idval('user_message')
+            message: idval('user_message'),
+            time: new Date().toString()
         }
     );
     document.getElementById('spin-off').style.display = 'none';
