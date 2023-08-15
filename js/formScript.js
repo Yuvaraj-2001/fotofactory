@@ -41,13 +41,14 @@ function idval(id){
     return document.getElementById(id) && document.getElementById(id).value;
 }
 function sendData(){
+    let dateStr = new Date().toString();
     let data = objectToFormData(
         {
             name: idval('user_name'), 
             phone:idval('user_phone'), 
             email: idval('user_email'), 
             message: idval('user_message'),
-            time: new Date().toString()
+            time: dateStr
         }
     );
     document.getElementById('spin-off').style.display = 'none';
