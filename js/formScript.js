@@ -53,8 +53,8 @@ function sendData(){
     );
     document.getElementById('spin-off').style.display = 'none';
     document.getElementById('spin-on').style.display = 'inline-block';
-   
-    fetch('https://script.google.com/macros/s/AKfycbyHdxtJnwHWxV6Sk0ZdJupPD8-_HH7SORYdCIy9JPTVFZiDTAq08_zokuvzCRcit7RA/exec', {
+           
+    fetch('https://script.google.com/macros/s/AKfycby05oW4afRB_VO83EeWsBI330mZQGmZH04kNY6fA11xGeGXqIxjy1bpqlZnj7bi3bw4/exec', {
         method: "POST",
         body: data
     })
