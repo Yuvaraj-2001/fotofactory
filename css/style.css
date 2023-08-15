@@ -800,3 +800,9 @@ a:focus {
   padding: 20px;
   border-radius: 15px;
 }
+.help-block{
+  color: rgb(255, 43, 96);
+}
+#spin-on{
+  display: none;
+}
