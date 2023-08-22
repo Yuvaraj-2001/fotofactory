@@ -115,10 +115,57 @@
 
   <section class="about_section layout_padding">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container pb-5">
         <h2>
           Why Choose Us?
         </h2>
+      </div>
+      <div class="row text-center">
+        <div class="col-lg-3">
+          <div class="panel-box">
+            <img src="images/indexfile/wedding.jpeg" />
+            <p class="text-center panel-heading">Wedding shoot</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="panel-box">
+            <img src="images/indexfile/engagement.jpeg" />
+            <p class="text-center panel-heading">Engagement shoot</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="panel-box">
+            <img src="images/indexfile/post wedding shoot.jpeg" />
+            <p class="text-center panel-heading">Post wedding shoot</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="panel-box">
+            <img src="images/indexfile/new born shoot.jpeg" />
+            <p class="text-center panel-heading">New born shoot</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div class="panel-box">
+            <img src="images/indexfile/birthday.jpeg" />
+            <p class="text-center panel-heading">Birthday</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="panel-box">
+            <img src="images/indexfile/model shoot.jpeg" />
+            <p class="text-center panel-heading">Model shoot</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="panel-box">
+            <img src="images/indexfile/pregnancy shoot.jpeg" />
+            <p class="text-center panel-heading">Pregnancy shoot</p>
+          </div>
+        </div>
       </div>
       <div class="box">
         <!-- <div class="img-box">
@@ -127,15 +174,16 @@
             <img src="images/about-img-bg.png" alt="">
           </div>
         </div> -->
-        <div class="">
+        <!-- <div class="">
           <img src="images/girlai.png" height="450px" alt="">
-        </div>
+        </div> -->
+
         <div class="detail-box">
           <p>
             At Foto Factory, our 5-year photography journey reflects our commitment to freezing cherished moments. Our diverse expertise spans pre-wedding, post-wedding, baby, wedding, portfolio, and candid shoots. With a passionate team dedicated to capturing your memories, we bring life to your special moments. Choose us for professional, heartfelt photography that resonates with your emotions.
           </p>
           <!-- <div>
-            <a href="/about.html">
+            <a href="about.html">
               Read More
             </a>
           </div> -->
@@ -146,7 +194,52 @@
   </section>
 
   <!-- end about section -->
-
+  <!-- Footer Section -->
+  <section class="contact_section layout_padding">
+    <div class="bg-img1">
+      <img src="images/bg-img-1.png" alt="">
+    </div>
+    <div class="bg-img2">
+      <img src="images/bg-img-2.png" alt="">
+    </div>
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Contact Us
+        </h2>
+      </div>
+      <div class="">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div>
+              <div class="contact_form-container dominar-form-contact">
+                <div>
+                  <div class="form-group">
+                    <input type="text" placeholder="Name" id="user_name" name="user_name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" inputmode="decimal" placeholder="Phone Number" maxlength="10"  limit-to="10" oninput="this.value = this.value.replace(/[^0-9]+/g, '')" id="user_phone" name="user_phone">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" placeholder="Email"  id="user_email" name="user_email">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" placeholder="Message"  id="user_message" name="user_message">
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button>
+                      <span id="spin-off" onclick="validateCustomerForm()">Submit</span>
+                      <span class="spinner-border text-white" id="spin-on"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- info section -->
   <section class="info_section ">
@@ -198,6 +291,8 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/dominar.js"></script>
+  <script type="text/javascript" src="js/formScript.js"></script>
 
 </body>
 
