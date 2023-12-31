@@ -823,6 +823,16 @@ a:focus {
   height: 100px;
 }
 
+.profile-img{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.profile-img img{
+  width: 400px;
+  height: 400px;
+}
+
 @media (max-width: 768px){
   .panel-box{
     margin: 10px;
